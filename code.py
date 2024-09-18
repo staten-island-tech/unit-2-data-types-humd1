@@ -1,6 +1,5 @@
-
-number = 15
-if remainder / 2:
+x = int(input)
+if x % 2 == 0:
     print('even')
 else:
     print('odd')
