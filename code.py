@@ -1,12 +1,7 @@
-""" number = int(input("Enter a number"))
-
-if (number % 2) == 0:
-    print("even")
+bill = input("how was your service?")
+if bill == "good":
+    print("Give a 20% tip?")
+elif bill == "bad":
+    print("No tip?")
 else:
-    print("odd") """
-
-tips = [0, 15, 20, 25]
-
-service = input("How was your service?")
-if service = 
-print("20% tip?")
+    print("Give a 15% tip?")
