@@ -15,6 +15,3 @@ elif service_quality == "Great":
     print(float(bill * 0.25))
 else: 
     print("invalid input")
-
-service_quality()
-bill()
